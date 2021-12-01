@@ -1,5 +1,5 @@
 let fs = require('fs');
-let text = fs.readFileSync('/Users/jackhooper/Documents/Advent/2021/aoc2021/day1/part1/src/d1_p1_input.txt', 'utf-8');
+let text = fs.readFileSync('/Users/jackhooper/Documents/Advent/2021/aoc2021/day1/src/d1_p1_input.txt', 'utf-8');
 let array = text.split('\n').map(Number);
 let increment = 0;
 
