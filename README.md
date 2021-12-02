@@ -11,3 +11,15 @@
 - Part one saw me creating a simple bit of code that iterates elements in the array and if the next element is bigger than the last then increment by one
 
 - Part two saw me looking more into sliding window algorithms using one technique but it wasn't producing the desired output. I utilised my previous code and altered it to include two variables (currentSum and maxSum), currentSum added the 3 elements together, maxSum added the next 3 in the sequence. The code then follows the same logic as part one and increments every time currentSum is less than maxSum
+
+## Day 2
+
+### Things I learnt
+
+- Discovered the usefulness of parseInt(element, radix)
+
+- Recognised that I need to work on not over complicating code as after creating my solution as a class I attempted different methods of turning my nested arrays into objects only to discover the simpler way with map (see lines 3-10) which saw me altering my existing code. Annoyingly I had the right idea after 15 minutes but this ended up taking me 2hr30mins due to over thinking...
+
+- Initially started with a class but it saw my constructor as undefined. I eventually came back to this and turned it into a function instead and the constructors into variables
+
+- Part two was a slight alteration to existing code, it took me a few minutes to wrap my head around what was being asked of me
